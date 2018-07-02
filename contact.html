@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kandari</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,300,700,400italic,300italic,700italic">
+    <link rel="stylesheet" href="assets/css/about.css">
+    <link rel="stylesheet" href="assets/css/Animated-numbers-section.css">
+    <link rel="stylesheet" href="assets/css/backtotop.css">
+    <link rel="stylesheet" href="assets/css/Carousel-Hero.css">
+    <link rel="stylesheet" href="assets/css/contact-line.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/event.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/heading.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="assets/css/loadingpage.css">
+    <link rel="stylesheet" href="assets/css/loginform.css">
+    <link rel="stylesheet" href="assets/css/nav.css">
+    <link rel="stylesheet" href="assets/css/pro.css">
+    <link rel="stylesheet" href="assets/css/Profile-Edit-Form.css">
+    <link rel="stylesheet" href="assets/css/Profile-Picture-With-Badge.css">
+    <link rel="stylesheet" href="assets/css/Projects-Clean.css">
+    <link rel="stylesheet" href="assets/css/Registration-Form-with-Photo.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/team.css">
+</head>
+
+<body>
+    <div id="LoadingPage" class="loading-icon"><i class="icon ion-aperture fa-spin fa-5x fa-fw" style="color:rgb(71,70,74);"></i></div>
+    <section class="hero">
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean-search" style="color:rgb(252,252,252);background-color:rgba(255,255,255,0);">
+            <div class="container"><a class="navbar-brand" href="#">Kandari</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon" id="navbar-tog"></span></button>
+                <div
+                    class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav ml-auto" id="navbar" style="margin:-15px;padding:16px;">
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="index.html" style="color:rgb(255,255,255);">Home</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="about.html" style="color:rgb(249,249,249);">About</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="contact.html" style="color:rgb(249,251,252);">Contact</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="event.html" style="color:rgb(255,255,255);">Events</a></li>
+                    </ul>
+                    <form class="form-inline mr-auto" target="_self">
+                        <div class="form-group"><label for="search-field"><i class="fa fa-search" id="search" style="color:rgb(255,255,255);margin:13px;"></i></label><input class="form-control search-field" type="search" name="search" id="search-field"></div>
+                    </form><a class="btn btn-outline-dark action-button" role="button" href="login.html" id="login-btn" style="background-color:rgba(255,255,255,0);margin:-14px;">Admin</a></div>
+            </div>
+        </nav>
+        <h2 class="text-center head1">Contact Us</h2>
+    </section><!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact" class="section-bg wow fadeInUp">
+      <div class="container">
+
+        <div class="section-header">
+          <h3>Contact Us</h3>
+          <p>Contact us if you have any enqueries :)</p>
+        </div>
+
+        <div class="row contact-info">
+
+          <div class="col-md-4">
+            <div class="contact-address">
+              <i class="ion-ios-location-outline"></i>
+              <h3>Address</h3>
+              <address>Kajla, Ruet </address>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-phone">
+              <i class="ion-ios-telephone-outline"></i>
+              <h3>Phone Number</h3>
+              <p><a href="tel:+8801700000000">+88017 000 000 00</a></p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-email">
+              <i class="ion-ios-email-outline"></i>
+              <h3>Email</h3>
+              <p><a href="mailto:kandaribd@gmail.com">kandaribd@gmail.com</a></p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="form">
+          <div id="sendmessage">Your message has been sent. Thank you!</div>
+          <div id="errormessage"></div>
+          <form action="" method="post" role="form" class="contactForm">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group col-md-6">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validation"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+              <div class="validation"></div>
+            </div>
+            <div class="text-center"><button type="submit">Send Message</button></div>
+          </form>
+        </div>
+
+      </div>
+    </section><!-- #contact -->
+
+    <div class="footer-basic" style="background-color:rgb(255,255,255);">
+        <footer>
+            <div class="social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-youtube"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="index.html">Home</a></li>
+                <li class="list-inline-item"></li>
+                <li class="list-inline-item"><a href="about.html">About</a></li>
+                <li class="list-inline-item"><a href="event.html">Events</a></li>
+                <li class="list-inline-item"><a href="privacy.html">Privacy Policy</a></li>
+                <li class="list-inline-item"><a href="https://getbootstrap.com/">Bootstrap</a></li>
+            </ul>
+            <p class="copyright">Copyright © Kandari</p>
+        </footer><a href="#0" id="totop" class="cd-top js-cd-top cd-top--fade-out cd-top--show" style="background-image:url(&quot;assets/img/cd-top-arrow.svg&quot;);">Top</a></div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Pretty-Carousel-Fade--TouchSwipe.js"></script>
+    <script src="assets/js/2-columns-media-image-video-carousel-map.js"></script>
+    <script src="assets/js/Animated-numbers-section.js"></script>
+    <script src="assets/js/Animated-Type-Heading.js"></script>
+    <script src="assets/js/Bold-BS4-Animated-Back-To-Top.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="assets/js/Loading-Page-Animation-Style.js"></script>
+    <script src="assets/js/Profile-Edit-Form.js"></script>
+    <script src="assets/js/Sidebar-Menu.js"></script>
+    <script src="assets/js/Slider_Carousel_webalgustocom.js"></script>
+</body>
+
+</html>
